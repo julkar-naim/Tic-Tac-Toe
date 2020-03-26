@@ -93,7 +93,7 @@ void playerVsPc(){
         turn = turn == pc ? player : pc;
         if(turn == player){
             while(true){
-                cout << "\nplayer " << player << " \'" << sel[player] << "\' : "; 
+                cout << "\nplayer " << " \'" << sel[player] << "\' : "; 
                 int choose; cin >> choose;
                 if(choose > 9 ||  choose < 1 || cell[choose] != choose + '0'){
                     cout << "Invalid move " << endl;
